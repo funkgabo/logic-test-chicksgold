@@ -114,6 +114,10 @@ export const useCalcBuckets = (formData) => {
             setError('')
         }
 
+        if(formData.spectZ === null){
+            setError('No Solution Posible')
+        }
+
     }, [formData])
 
     return { error, solution, calcSolution }
