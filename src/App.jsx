@@ -6,18 +6,18 @@ import { ResultsTable } from './components/ResultsTable';
 
 function App() {
   const [formData, setFormData] = useState({
-    bucketX: '',
-    bucketY: '',
-    spectZ: ''
+    bucketX: null,
+    bucketY: null,
+    spectZ: null
   });
   const { error, solution, calcSolution } = useCalcBuckets(formData)
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
-    if (value < 0) return
+
     setFormData({
       ...formData,
-      [name]: Number(value),
+      [name]: value ? Number(value) : null,
     });
   };
 
