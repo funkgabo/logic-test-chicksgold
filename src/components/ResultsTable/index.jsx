@@ -1,3 +1,5 @@
+import './styles.css'
+
 export const ResultsTable = ({ solution }) => {
     return (
         <div className="table-container">
