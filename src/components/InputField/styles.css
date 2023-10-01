@@ -1,0 +1,13 @@
+.formDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .formDiv input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  

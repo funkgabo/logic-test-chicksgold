@@ -2,24 +2,6 @@
   text-align: center;
 }
 
-.bucketsForm {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.formDiv {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.formDiv input {
-  padding: 10px 15px;
-  border-radius: 10px;
-  font-size: 20px;
-}
 
 .tableContainer {
   display: block;
